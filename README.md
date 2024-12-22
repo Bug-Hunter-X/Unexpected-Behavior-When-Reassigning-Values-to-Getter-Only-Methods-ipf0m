@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Ruby bug related to assigning values to methods that only have getter methods defined.  The `bug.rb` file shows the unexpected behavior where attempting to reassign a value does not update the object's internal state. The solution file `bugSolution.rb` provides a correct way to achieve this by explicitly defining a setter method.
